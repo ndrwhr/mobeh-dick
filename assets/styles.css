@@ -1,0 +1,56 @@
+
+body {
+    font-family: georgia, serif;
+    width: 700px;
+    margin: 20px auto 0;
+    color: #777;
+}
+
+h1.mobeh {
+    color: black;
+    background: transparent;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    line-height: 175%;
+    letter-spacing: -0.05em;
+}
+
+p.mobeh {
+    color: black;
+    text-indent: 0;
+    text-align: justify;
+    font-size: 35px;
+    line-height: 160%;
+    margin-bottom: 1em;
+    -webkit-transition: color 500ms ease-in-out;
+}
+
+p.mobeh img {
+    float: left;
+    height: 100px;
+    margin: 10px 10px 0 0;
+}
+
+div.mobeh {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto 20px;
+    background: transparent url(images/controls.png) no-repeat top left;
+    cursor: pointer;
+}
+ 
+div.mobeh.playing {
+    background-position: bottom left;
+}
+
+img.mobeh {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    background: #eee;
+    color: #777;
+    text-decoration: none;
+}
